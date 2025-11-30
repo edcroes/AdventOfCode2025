@@ -11,4 +11,4 @@ global using AoC.Common.Files;
 global using AoC.Common.Geometry;
 global using AoC.Common.Graphs;
 global using AoC.Common.Maps;
-global using AoC2024;
+global using AoC2025;

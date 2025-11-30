@@ -1,6 +1,6 @@
 ﻿using AoC.Common.Extensions;
 
-namespace AoC2024.Tests;
+namespace AoC2025.Tests;
 
 public class DayTestsWithTestDataBase<T>(
         string expectedAnswerPart1,

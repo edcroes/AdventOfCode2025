@@ -20,7 +20,7 @@ public class MapSliceExtensionsTests
 
         foreach (var rectangle in rectangles)
         {
-            var exception = Assert.ThrowsException<ArgumentOutOfRangeException>(() => map.Slice(rectangle));
+            var exception = Assert.Throws<ArgumentOutOfRangeException>(() => map.Slice(rectangle));
             Assert.AreEqual("Rectangle exceeds the map size (Parameter 'rectangle')", exception.Message);
         }
     }
